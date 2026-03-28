@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.fileops" name="Handle files" version="1.0.0" provider-name="Heckie">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+	</requires>
+	<extension point="kodi.context.item">
+		<menu id="kodi.core.main">
+			<item library="delete.py">
+				<label>32002</label>
+				<visible>!ListItem.IsFolder + String.StartsWith(ListItem.Path, /)</visible>
+			</item>
+			<item library="rename.py">
+				<label>32029</label>
+				<visible>String.StartsWith(ListItem.Path, /)</visible>
+			</item>
+			<item library="delete.py">
+				<label>32002</label>
+				<visible>!ListItem.IsFolder + String.Matches(ListItem.Path, "^[A-Za-z]:\\.*")</visible>
+			</item>
+			<item library="rename.py">
+				<label>32029</label>
+				<visible>String.Matches(ListItem.Path, "^[A-Za-z]:\\.*")</visible>
+			</item>
+			<item library="move.py">
+				<label>32037</label>
+				<visible>String.StartsWith(ListItem.Path, /)</visible>
+			</item>
+			<item library="move.py">
+				<label>32037</label>
+				<visible>String.Matches(ListItem.Path, "^[A-Za-z]:\\.*")</visible>
+			</item>
+		</menu>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">File operations from context menu</summary>
+		<summary lang="de_DE">Dateioperationen aus dem Kontextmenü</summary>
+		<description lang="en_GB">Delete, rename, and move files from context menu</description>
+		<description lang="de_DE">Dateien aus dem Kontextmenü löschen, umbenennen und verschieben</description>
+		<disclaimer lang="en_GB"></disclaimer>
+		<language>en_GB</language>
+		<platform>all</platform>
+		<license>MIT</license>
+		<website>https://github.com/Heckie75/kodi-addon-fileops</website>
+		<source>https://github.com/Heckie75/kodi-addon-fileops</source>
+		<news>
+			v1.0.0 (2026-03-28)
+			- Initial version
+		</news>
+		<assets>
+			<icon>resources/assets/icon.png</icon>
+		</assets>
+	</extension>
+</addon>

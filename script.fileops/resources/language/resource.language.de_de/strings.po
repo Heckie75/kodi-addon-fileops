@@ -1,0 +1,114 @@
+# Kodi Media Center language file
+# Addon Name: Skin Widgets
+# Addon id: service.skin.widgets
+# Addon Provider: Martijn, phil65
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#32002"
+msgid "32002"
+msgstr "Datei löschen"
+
+msgctxt "#32021"
+msgid "32021"
+msgstr "Datei löschen"
+
+msgctxt "#32022"
+msgid "32022"
+msgstr "Soll die Datei %s wirklich gelöscht werden?"
+
+msgctxt "#32023"
+msgid "32023"
+msgstr "Datei gelöscht"
+
+msgctxt "#32024"
+msgid "32024"
+msgstr "%s wurde gelöscht."
+
+msgctxt "#32025"
+msgid "32025"
+msgstr "Fehler beim Löschen"
+
+msgctxt "#32026"
+msgid "32026"
+msgstr "Datei %s konnte nicht gelöscht werden!"
+
+msgctxt "#32027"
+msgid "32027"
+msgstr "Abbrechen"
+
+msgctxt "#32028"
+msgid "32028"
+msgstr "Ja"
+
+msgctxt "#32029"
+msgid "32029"
+msgstr "Datei umbenennen"
+
+msgctxt "#32030"
+msgid "32030"
+msgstr "Neuer Name"
+
+msgctxt "#32031"
+msgid "32031"
+msgstr "Datei umbenannt"
+
+msgctxt "#32032"
+msgid "32032"
+msgstr "%s umbenannt."
+
+msgctxt "#32033"
+msgid "32033"
+msgstr "Fehler beim Umbenennen"
+
+msgctxt "#32034"
+msgid "32034"
+msgstr "Datei %s konnte nicht umbenannt werden!"
+
+msgctxt "#32035"
+msgid "32035"
+msgstr "Abbrechen"
+
+msgctxt "#32036"
+msgid "32036"
+msgstr "OK"
+
+msgctxt "#32037"
+msgid "32037"
+msgstr "Datei verschieben"
+
+msgctxt "#32038"
+msgid "32038"
+msgstr "Zielverzeichnis auswählen"
+
+msgctxt "#32039"
+msgid "32039"
+msgstr "Datei verschoben"
+
+msgctxt "#32040"
+msgid "32040"
+msgstr "%s verschoben."
+
+msgctxt "#32041"
+msgid "32041"
+msgstr "Fehler beim Verschieben"
+
+msgctxt "#32042"
+msgid "32042"
+msgstr "Datei %s konnte nicht verschoben werden!"
+
+msgctxt "#32028"
+msgid "32028"
+msgstr "OK"
+
